@@ -8,7 +8,7 @@ https://github.com/mkocabas/VIBE
 video inference for human body pose and shape estimation
 
 ## Installation 
-Environment : window10(x64), python 3.7, cuda 10.1, cpu only <br/>
+Environment : window10(x64), python 3.7, cpu only <br/>
 
 C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.<br/>
 	
