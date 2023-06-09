@@ -1,11 +1,19 @@
 # opensw23-YHL
+
 Team Introduction: 이윤희 lylylylh
+
 Topic Introduction: 
+
   video inference for human body pose and shape estimation
+  
   (영상 속 사람의 움직임을 포착하여 동작과 형태를 추정하고 이를 바탕으로 새 영상을 만들어낸다.)
+  
 Results: empty 
+
 Analysis/Visualization: 
+
 Installation: 
+
   < environment - window10(x64), python 3.7, cuda 10.1, cpu only >
   C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.
   install miniconda: https://docs.conda.io/en/latest/miniconda.html
