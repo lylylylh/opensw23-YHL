@@ -1,24 +1,23 @@
 # opensw23-YHL
+## Team Introduction
+이윤희 lylylylh
 
-Team Introduction: 이윤희 lylylylh
+## Topic Introduction 
+https://github.com/mkocabas/VIBE
 
-Topic Introduction: 
-
-	video inference for human body pose and shape estimation
-	영상 속 사람의 움직임을 포착하여 동작과 형태를 추정하고 이를 바탕으로 새 영상을 만들어낸다.
+video inference for human body pose and shape estimation
   
-Results: empty 
+## Results
 
-Analysis/Visualization: 
+## Analysis/Visualization
 
-Installation: 
-    
-	environment : window10(x64), python 3.7, cuda 10.1, cpu only 
+## Installation 
+environment : window10(x64), python 3.7, cuda 10.1, cpu only 
 	
-	C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.
+C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.
 	
-	install miniconda: https://docs.conda.io/en/latest/miniconda.html
-	-> (Windows) Miniconda3 Windows 64-bit 을 설치하고 실행한다.
+install miniconda: https://docs.conda.io/en/latest/miniconda.html
+-> (Windows) Miniconda3 Windows 64-bit 을 설치하고 실행한다.
   
   	install VC2017 redist: https://support.microsoft.com/pt-br/help/2977003/the-latest-supported-visual-c-downloads
 	-> https://aka.ms/vs/17/release/vc_redist.x64.exe 를 설치하고 실행한다.
