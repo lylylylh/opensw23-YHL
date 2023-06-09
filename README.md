@@ -8,7 +8,7 @@ https://github.com/mkocabas/VIBE
 video inference for human body pose and shape estimation
 
 ## Installation 
-Environment : window10(x64), python 3.7, cpu only <br/>
+Environment : window10(x64), cpu only <br/>
 
 C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.<br/>
 	
@@ -50,13 +50,21 @@ vibe-env\lib\site-packages\torch 폴더 내의 serialization.py 코드 내에<br
   	
 	map_location=torch.device('cpu')
 으로 바꾼다.<br/>
-  
+
+(input).mp4 파일을 VIBE 폴더 안에 넣는다. <br/>
+
 anaconda prompt(miniconda3)를 실행하여
   	
-	python demo.py --vid_file sample_video.mp4 --output_folder output/ --display
+	python demo.py --vid_file (input).mp4 --output_folder output/ --display
 을 실행한다.
   
 ## Results
+<Sample Video (from https://github.com/mkocabas/VIBE) >
+https://github.com/lylylylh/opensw23-YHL/assets/117340443/2e568bd5-6636-423e-a88d-9c2a02edd04a
+
+<Video1>
+https://github.com/lylylylh/opensw23-YHL/assets/117340443/6137f531-4b9d-43de-84ba-cddcaa63f841
+
 
 ## Analysis/Visualization
 ## Presentation 
