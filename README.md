@@ -36,7 +36,7 @@ https://github.com/mkocabas/VIBE/archive/master.zip<br/>
 https://github.com/carlosedubarreto/vibe_win_install/archive/main.zip<br/>
 위 2개의 zip파일을 다운받아 압축을 풀고 그 안의 파일들을 VIBE 폴더 안에 넣는다.<br/>
   
-anaconda prompt(miniconda3)를 실행하여 다음을 한줄씩 실행시킨다.
+anaconda prompt(miniconda3)를 실행하여 다음을 실행시킨다.
 	
 	conda create -n venv_vibe python=3.7
 	conda activate venv_vibe
