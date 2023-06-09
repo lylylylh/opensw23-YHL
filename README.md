@@ -9,6 +9,14 @@ video inference for human body pose and shape estimation
 
 ## Installation 
 Environment : window10(x64), cpu only <br/>
+> python == 3.7<br/>
+> tensorboard == 1.15.0 <br/>
+> tensorflow == 1.15.4 <br/>
+> torch == 1.4.0+cu92 <br/>
+> torchvision == 0.5.0+cu92 <br/>
+> pyglet == 1.4.10<br/>
+> PyOpenGL == 3.1.0<br/>
+> opencv-python == 4.1.2.30<br/>
 
 C:/Users/(username) 안에 MOCAP 폴더를 생성하고 그 안에 VIBE 폴더를 생성한다.<br/>
 	
@@ -44,7 +52,7 @@ anaconda prompt(miniconda3)를 실행하여 다음을 실행시킨다.
 	conda install -c anaconda git
 	install_conda.bat
 	prepare_data.bat
-  
+
 vibe-env\lib\site-packages\torch 폴더 내의 serialization.py 코드 내에<br/>
 "map_location=NONE" 을<br/>
   	
